@@ -10,7 +10,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 //here we are cloning 'recipes' into a new object (object2),
-//then deleting the key-value pair from the clone
+//then deleting the key-value pair from the clone,
 //then returning the clone. no changes made to original object 'recipes'
 function deleteFromObjectByKey(object, key, value) {
   var Object2 = Object.assign({}, recipes, {[key]:value})
